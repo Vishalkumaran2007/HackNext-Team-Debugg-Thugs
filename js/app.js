@@ -9,7 +9,7 @@ async function generateSummary() {
 
     output.innerText = "⏳ Generating research summary...";
 
-    const API_KEY = "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";
+    const API_KEY = "Enter Your API Here";
 
     try {
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
